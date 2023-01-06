@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/PinnkyBest/static/css/main.64d597dd.css",
+    "main.js": "/PinnkyBest/static/js/main.893b041a.js",
+    "static/media/sanitarypad2.jpg": "/PinnkyBest/static/media/sanitarypad2.7acd4ae5ce593f6bb980.jpg",
+    "static/media/clean.jpg": "/PinnkyBest/static/media/clean.001855baf0b603e885df.jpg",
+    "static/media/disinfectant.jpg": "/PinnkyBest/static/media/disinfectant.bfdbfdd7639eff08d4ed.jpg",
+    "static/media/soap2.jpg": "/PinnkyBest/static/media/soap2.fcddc495510530cd03cf.jpg",
+    "static/media/LOGO.png": "/PinnkyBest/static/media/LOGO.9485bd731045e91044f4.png",
+    "static/media/phenyl2.png": "/PinnkyBest/static/media/phenyl2.4c943b7b9715b10af15d.png",
+    "static/media/floor2.jpg": "/PinnkyBest/static/media/floor2.67609444d655ec6aee15.jpg",
+    "static/media/MC1.png": "/PinnkyBest/static/media/MC1.b293b30e7de88c9689d2.png",
+    "static/media/MC2.png": "/PinnkyBest/static/media/MC2.2b8950ae169650f65e94.png",
+    "static/media/phenyl5.png": "/PinnkyBest/static/media/phenyl5.bea55c722bdda7f596e5.png",
+    "static/media/phenyl1.png": "/PinnkyBest/static/media/phenyl1.e265c2cfc8f8b7313240.png",
+    "static/media/nap2.jpg": "/PinnkyBest/static/media/nap2.7b213fe1290aa0bf999f.jpg",
+    "static/media/phenyl3.png": "/PinnkyBest/static/media/phenyl3.515de2cc582e98c325ca.png",
+    "static/media/B2.png": "/PinnkyBest/static/media/B2.0fb67be74e06a46742d0.png",
+    "static/media/MC3.png": "/PinnkyBest/static/media/MC3.b242db6a259298be66f8.png",
+    "static/media/phenyl4.png": "/PinnkyBest/static/media/phenyl4.461c1ffdb19191ec699a.png",
+    "static/media/pad1.png": "/PinnkyBest/static/media/pad1.cf75a20bee809b7bf3b7.png",
+    "static/media/B1.png": "/PinnkyBest/static/media/B1.256a187b888c6d302717.png",
+    "static/media/girl2.jpg": "/PinnkyBest/static/media/girl2.ff4699b057bf6b17899a.jpg",
+    "static/media/1.jpg": "/PinnkyBest/static/media/1.9c5f96642a40e803525e.jpg",
+    "static/media/girl2mobi.jpg": "/PinnkyBest/static/media/girl2mobi.f0be29f301a0d1ba3352.jpg",
+    "static/media/2.jpg": "/PinnkyBest/static/media/2.234a30329994f904aece.jpg",
+    "static/media/girl2tab.jpg": "/PinnkyBest/static/media/girl2tab.e12033f63ba00353328b.jpg",
+    "static/media/pad.jpeg": "/PinnkyBest/static/media/pad.f8c96cb3447c16403db1.jpeg",
+    "index.html": "/PinnkyBest/index.html",
+    "main.64d597dd.css.map": "/PinnkyBest/static/css/main.64d597dd.css.map",
+    "main.893b041a.js.map": "/PinnkyBest/static/js/main.893b041a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64d597dd.css",
+    "static/js/main.893b041a.js"
+  ]
+}
