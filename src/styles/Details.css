@@ -1,0 +1,66 @@
+.details{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    display: flex ;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+}
+
+.details img{
+    width: 60%;
+    height: 80%;
+    object-fit: cover;
+    position: relative;
+    right: 10%;
+    border: 10px;
+}
+
+.details .paragraph{
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 40%;
+    left: 7%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 50%;
+    z-index: 5;
+}
+
+.phenylPage .details .paragraph{
+    min-height: fit-content;
+}
+
+.phenylPage .details img{
+    min-height: fit-content;
+}
+
+@media only screen and (max-width:683px) {
+    .details{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .details img{
+        top: 15%;
+        right: 0;
+        width: 80%;
+    }
+
+    .details .paragraph{
+        top: -10%;
+        left: 0;
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width:476px) {
+    .details img{
+        width: 90%;
+    }
+}

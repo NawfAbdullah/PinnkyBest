@@ -1,0 +1,134 @@
+.card{
+    position: relative;
+    width: 260px;
+    height: 255px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition:  0.3s ease-in-out;
+  }
+
+.phenyl .card:hover{
+    height: 500px  
+  }
+
+  .phenyl .card:hover .imgBx{
+    width: 55%;
+    position: relative;
+    right: 20px;
+    transform: translateX(15px) translateY(-70px);
+  }  
+
+.card:hover{
+    height: 450px;
+  }
+.card .imgBx{
+    position: relative;
+    width: 70%;
+    height: 40%;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+.por-1{
+    width:100%;
+    margin-top:50px;
+    position: relative;
+    left: 70px;
+    transform: translateX(-50%);
+  }
+.card .imgBx img{
+    width: 100%;
+    border-radius: 4px;
+  }
+.card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition:  0.3s ease-in-out;
+  }
+
+.card .content h2{
+  margin: 0;
+}  
+
+.phenyl .card .break{
+  margin: 0;
+}
+
+@media only screen and (max-width:495px) {
+  .card .content h2{
+    font-size: 1rem;
+  }  
+}
+
+.card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+  }
+
+.badge {
+      position: absolute;
+      left: 0;
+      top: 20px;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 700;
+      background: red;
+      color: #fff;
+      padding: 3px 10px;
+  }
+
+  
+.product-bottom-details {
+      overflow: hidden;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+     
+  }
+  
+.product-price {
+      font-size: 1.2rem;
+      color: #fbb72c;
+      font-weight: 600;
+      text-align: center;
+      justify-content: center;
+  }
+  
+.product-price small {
+      font-size: 80%;
+      font-weight: 400;
+      text-decoration: line-through;
+      display: inline-block;
+      text-align: center;  
+  }
+
+  @media only screen and (max-width:400px) {
+    .napkinPage .card{
+      min-width: 200px;
+    }
+
+    .phenyl .card{
+      min-width: 240px;
+      height: 260px;
+    }
+
+    .phenyl .card:hover {
+      height: 450px;
+    }
+  }
+
+

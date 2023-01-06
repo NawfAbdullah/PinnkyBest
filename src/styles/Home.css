@@ -1,0 +1,269 @@
+.home{
+    position: relative;
+    top: 50px;
+}
+
+.banner23{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.content23{ 
+    width: 60%;
+    height: 100%;
+    background-color: #000;
+    background-image: url(../assets/girl2.jpg);
+    background-size: cover;
+    background-position: top center;
+    box-sizing: border-box ;
+}
+
+.imagebox{
+    position: absolute;
+    right: -70px;
+    width: calc(50% + 30px);
+    height: 100%;
+    box-sizing: border-box ;
+    border-left: 400px solid transparent;
+    transform-box: view-box;
+    background-position: bottom center;
+    transform: skew(-10deg);
+    background-image:  url(../assets/floor2.jpg);
+    background-size: cover;
+}
+
+.home h1{
+    color: maroon;
+}
+
+@keyframes slide {
+    0%{
+        left: -200px;
+    }
+    100%{
+        left: 0;
+    }
+}
+ 
+.banner23 h1{
+    position: absolute;
+    width: 100vw;
+    top: 40%;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+    text-shadow: 10px 10px 10px black
+}
+
+.about-title h1{
+    font-family: 'Inter', sans-serif;
+}
+
+h1.products{
+  position: relative;
+  bottom: 40px;  
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/1366942/pexels-photo-1366942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* Set a specific height */
+    min-height: 600px;
+    position: relative;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  } 
+
+  .parallax p{
+    font-size: 2rem;
+  }
+
+  @media only screen and (max-width:458px) {
+    .parallax{
+        min-height: 500px;
+    }
+}
+
+.map-carosaul{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.map-carosaul>div{
+    width: 50%;
+    height: 100%;
+}
+
+.main-content{
+    position: relative;
+}
+
+.caro-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.para{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.info-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:1069px) {
+    .home{
+        top: 45px;
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .caro-img{
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width:458px) {
+    .parallax{
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width:463px) {
+    .parallax p{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:346px) {
+    .parallax p{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:806px) {
+    h1.products{
+        padding: 20px;
+        padding-bottom: 45px;
+    }
+}
+
+@media only screen and (max-width:618px) {
+    .imagebox{
+        background-image: url(../assets/girl2tab.jpg);
+    }
+}
+
+@media only screen and (max-width:665px) {
+ .banner23{
+    width: 100vw;
+    height: 50vh;
+ }   
+
+ .content23{
+    object-position: left;
+ }
+
+ .imagebox{
+    width: 30%;
+ }
+}
+
+
+@media only screen and (max-width:643px) {
+    .banner23{
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .banner23 h1{
+        font-size: 1.7rem;
+    }
+    
+    .content23{
+        background-image: url(../assets/floor2.jpg);
+        background-position: left center;
+    }
+
+    .imagebox{
+        width: 700px;
+        right: -20px;
+        background-image: url(../assets/girl2tab.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .imagebox{
+        right: -40px;
+        background-image: url(../assets/girl2tab.jpg);
+        background-position: center center;
+    }
+}
+
+@media only screen and (max-width:678px) {
+    .para{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:431px){
+    .imagebox{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width:429px) {
+    .imagebox{
+        right: -40px;
+        background-image: url(../assets/girl2mobi.jpg);
+        background-position: center center;
+    }
+}
+
+@media only screen and (max-width:458px) {
+    .parallax{
+        min-height: 500px;
+    }
+}
+
+
+@media only screen and (max-width:683px) {
+    .map-carosaul{
+        height: 70vh;
+        flex-direction: column;
+    }
+
+    .map-carosaul>div{
+        width: 100%;
+        height: 50%;
+    }
+}
